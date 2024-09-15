@@ -40,3 +40,7 @@ FROM 'departments'
 SELECT *
 FROM 'teachers'
 WHERE 'phone' IS NULL 
+
+/QUERY BONUS 1/
+
+INSERT INTO 'students' ('degree_id', 'name', 'surname', 'date_of_birth', 'fiscal_code', 'enrolment_date', 'registration_number', 'email') VALUES ('11', 'Fabio', 'Marzano', '1993-01-20', 'MRZFBA.............', 'fabiomarzano1993@gmail.com')
