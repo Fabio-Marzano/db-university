@@ -1,6 +1,0 @@
-BLOCCO 2 (ESERCIZIO 13/9/2024)
-
-/QUERY 1/
-SELECT COUNT(`id`) AS numero_iscritti, YEAR(`students`.`enrolment_date`) AS anno
-FROM `students`
-GROUP BY anno

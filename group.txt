@@ -1,0 +1,14 @@
+BLOCCO 2 (ESERCIZIO 13/9/2024)
+
+/QUERY 1/
+SELECT COUNT(`id`) AS numero_iscritti, YEAR(`students`.`enrolment_date`) AS anno
+FROM `students`
+GROUP BY anno
+
+/QUERY 2/
+SELECT COUNT(`teachers`.`id`) as insegnanti, `teachers`.`office_address` as ufficio
+FROM `teachers`
+GROUP BY office;
+
+
+
