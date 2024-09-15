@@ -50,3 +50,5 @@ INSERT INTO 'students' ('degree_id', 'name', 'surname', 'date_of_birth', 'fiscal
 UPDATE 'teachers'
 SET 'office_number' = 126
 WHERE 'name' = 'Pietro' AND 'surname' = 'Rizzo'
+
+
