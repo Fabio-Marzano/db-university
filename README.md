@@ -44,3 +44,9 @@ WHERE 'phone' IS NULL
 /QUERY BONUS 1/
 
 INSERT INTO 'students' ('degree_id', 'name', 'surname', 'date_of_birth', 'fiscal_code', 'enrolment_date', 'registration_number', 'email') VALUES ('11', 'Fabio', 'Marzano', '1993-01-20', 'MRZFBA.............', 'fabiomarzano1993@gmail.com')
+
+/QUERY BONUS 2/
+
+UPDATE 'teachers'
+SET 'office_number' = 126
+WHERE 'name' = 'Pietro' AND 'surname' = 'Rizzo'
