@@ -11,4 +11,7 @@ FROM `teachers`
 GROUP BY office;
 
 
-
+/QUERY 3/
+SELECT AVG(`exam_student`.`vote`) as vote_avg, `exam_student`.`exam_id` as exam_id
+FROM `exam_student`
+GROUP BY exam_id;
