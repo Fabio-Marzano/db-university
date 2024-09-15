@@ -20,3 +20,10 @@ GROUP BY exam_id;
 SELECT COUNT(`degrees`.`id`) as n_degree,`degrees`.`department_id` as department
 FROM `degrees`
 GROUP BY department;
+
+/QUERY 5/
+SELECT `students`.*
+FROM `students`
+INNER JOIN `degrees`
+ON `degrees`.`id` = `students`.`degree_id`
+WHERE `degrees`.`name` = 'Corso di Laurea in Economia';
