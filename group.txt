@@ -15,3 +15,8 @@ GROUP BY office;
 SELECT AVG(`exam_student`.`vote`) as vote_avg, `exam_student`.`exam_id` as exam_id
 FROM `exam_student`
 GROUP BY exam_id;
+
+/QUERY 4/
+SELECT COUNT(`degrees`.`id`) as n_degree,`degrees`.`department_id` as department
+FROM `degrees`
+GROUP BY department;
