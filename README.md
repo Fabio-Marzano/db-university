@@ -35,3 +35,8 @@ WHERE 'level' = 'magistrale'
 /QUERY 7/
 SELECT COUNT (*)
 FROM 'departments'
+
+/QUERY 8/
+SELECT *
+FROM 'teachers'
+WHERE 'phone' IS NULL 
